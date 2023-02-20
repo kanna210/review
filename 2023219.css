@@ -1,0 +1,39 @@
+html{
+    background-color: aquamarine;
+}
+
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 87%;
+}
+
+.site-nav a:hover{
+    background-color: brown;
+}
+
+footer{
+    text-align: center;
+    font-size: 85% ;
+    color: #999;
+    padding-bottom: 20px;
+    padding-top:20px;
+
+}
+
+.fix{
+    clear:both;
+}
+
+.group:before,
+.group:after {
+	content: "";
+	display: table;
+}
+
+.group:after {
+	clear: both;
+}
+
+.group {
+	zoom: 1;
+}d
